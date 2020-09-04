@@ -1,10 +1,13 @@
-import React from 'react';
+import React from "react";
+//import Menu from "../src/components/Menu/Menu";
+import MenuB from "../src/components/Menu/MenuB";
 
 function App() {
   return (
-    <div>
-      Toroto
-    </div>
+    <>
+      {/*  <Menu /> */}
+      <MenuB />
+    </>
   );
 }
 
