@@ -1,17 +1,17 @@
 import React from "react";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
-import optionsBubble from "../../utils/optionsBubble";
+import optionsBubbleB from "../../utils/optionsBubbleB";
 /* import "highcharts/highcharts-more"; */
 import more from "highcharts/highcharts-more";
 more(Highcharts);
 
-const GraphicBubble = () => {
+const GraphicBubbleB = () => {
   return (
     <div>
-      <HighchartsReact highcharts={Highcharts} options={optionsBubble} />
+      <HighchartsReact highcharts={Highcharts} options={optionsBubbleB} />
     </div>
   );
 };
 
-export default GraphicBubble;
+export default GraphicBubbleB;
