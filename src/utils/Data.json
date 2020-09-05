@@ -1,0 +1,148 @@
+{
+  "empleado": [
+    {
+      "id": 1,
+      "nombre-empresa": "Laboratoria",
+      "nombre-empleado": "Edith Ortiz",
+      "area": "Diseño",
+      "mediciones-huella": [
+        {
+          "fecha": "01/08/2020",
+          "footPrint": 5.4
+        },
+        {
+          "fecha": "15/08/2020",
+          "footPrint": 5.2
+        },
+        {
+          "fecha": "01/09/2020",
+          "footPrint": 6
+        },
+        {
+          "fecha": "15/09/2020",
+          "footPrint": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre-empresa": "Laboratoria",
+      "nombre-empleado": "Lalo Landa",
+      "area": "Marketing",
+      "mediciones-huella": [
+        {
+          "fecha": "01/08/2020",
+          "footPrint": 3.4
+        },
+        {
+          "fecha": "15/08/2020",
+          "footPrint": 7.2
+        },
+        {
+          "fecha": "01/09/2020",
+          "footPrint": 8
+        },
+        {
+          "fecha": "15/09/2020",
+          "footPrint": 19
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre-empresa": "Laboratoria",
+      "nombre-empleado": "Macondo Larios",
+      "area": "Ventas",
+      "mediciones-huella": [
+        {
+          "fecha": "01/08/2020",
+          "footPrint": 5.7
+        },
+        {
+          "fecha": "15/08/2020",
+          "footPrint": 6.2
+        },
+        {
+          "fecha": "01/09/2020",
+          "footPrint": 9.5
+        },
+        {
+          "fecha": "15/09/2020",
+          "footPrint": 7
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre-empresa": "Laboratoria",
+      "nombre-empleado": "Ximena Celis",
+      "area": "Comunicacion",
+      "mediciones-huella": [
+        {
+          "fecha": "01/08/2020",
+          "footPrint": 5.7
+        },
+        {
+          "fecha": "15/08/2020",
+          "footPrint": 6.8
+        },
+        {
+          "fecha": "01/09/2020",
+          "footPrint": 9.6
+        },
+        {
+          "fecha": "15/09/2020",
+          "footPrint": 4
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nombre-empresa": "Laboratoria",
+      "nombre-empleado": "Sofia Vergara",
+      "area": "Tecnologia",
+      "mediciones-huella": [
+        {
+          "fecha": "01/08/2020",
+          "footPrint": 6
+        },
+        {
+          "fecha": "15/08/2020",
+          "footPrint": 10
+        },
+        {
+          "fecha": "01/09/2020",
+          "footPrint": 8
+        },
+        {
+          "fecha": "15/09/2020",
+          "footPrint": 6
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nombre-empresa": "Laboratoria",
+      "nombre-empleado": "Leoncia Trejo",
+      "area": "Distribucion",
+      "mediciones-huella": [
+        {
+          "fecha": "01/08/2020",
+          "footPrint": 9
+        },
+        {
+          "fecha": "15/08/2020",
+          "footPrint": 5
+        },
+        {
+          "fecha": "01/09/2020",
+          "footPrint": 5
+        },
+        {
+          "fecha": "15/09/2020",
+          "footPrint": 3
+        }
+      ]
+    }
+  ]
+}
