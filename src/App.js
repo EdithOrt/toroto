@@ -5,6 +5,7 @@ import GraphicBubbleB from "./components/GraphicBubbleB/GraphicBubbleB";
 import GraphicBubbleIndividual from "./components/GraphicBubbleIndividual/GraphicBubbleIndividual";
 
 function App() {
+  
   return (
     <div>
       Toroto
