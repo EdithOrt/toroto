@@ -3,13 +3,13 @@ const config = {
         type: 'areaspline'
     },
     title: {
-        text: 'Average fruit consumption during one week'
+        text: 'Huella de carbono de empresa Laboratoria'
     },
     legend: {
         layout: 'vertical',
         align: 'left',
         verticalAlign: 'top',
-        x: 150,
+        x: 350,
         y: 100,
         floating: true,
         borderWidth: 1,
@@ -18,28 +18,33 @@ const config = {
     },
     xAxis: {
         categories: [
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday',
-            'Sunday'
+            'Enero',
+            'Febrero',
+            'Marzo',
+            'Abril',
+            'Mayo',
+            'Junio',
+            'Julio',
+            'Agosto',
+            'Septiembre',
+            'Octubre',
+            'Noviembre',
+            'Diciembre'
         ],
         plotBands: [{ // visualize the weekend
-            from: 4.5,
-            to: 6.5,
+            from: 0,
+            to: 0,
             color: 'rgba(68, 170, 213, .2)'
         }]
     },
     yAxis: {
         title: {
-            text: 'Fruit units'
+            text: 'Toneladas de carbono'
         }
     },
     tooltip: {
         shared: true,
-        valueSuffix: ' units'
+        valueSuffix: ' toneladas'
     },
     credits: {
         enabled: false
@@ -50,11 +55,8 @@ const config = {
         }
     },
     series: [{
-        name: 'John',
-        data: [3, 4, 3, 5, 4, 10, 12]
-    }, {
-        name: 'Jane',
-        data: [1, 3, 4, 3, 3, 5, 4]
+        name: 'Laboratoria',
+        data: [300, 289.54, 272.20, 290.40, 250.55, 245.8, 220.10, 170.80, 199.72, 235.71, 145.23, 212.30]
     }]
 }
 
