@@ -1,14 +1,11 @@
-import React, {useEffect} from "react";
+import React, { useEffect, useState } from "react";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 import optionsBubbleB from "../../utils/optionsBubbleB";
 import more from "highcharts/highcharts-more";
 more(Highcharts);
 
-
-
 const GraphicBubbleB = () => {
-
   /* const getData = () =>{
     const database = fetch('https://raw.githubusercontent.com/EdithOrt/test-project/master/db.json')
     const data = database.then (res=>res.json( ))
@@ -30,13 +27,28 @@ value:res.footPrint.foot}]
   }
   getData() */
 
-   const getData = async() =>{
-    const database = await fetch('https://raw.githubusercontent.com/EdithOrt/test-project/master/db.json')
-    const result = await database.json()
-    console.log(result)
-  }
-  getData()
-  
+  /* const getData = async () => {
+    const database = await fetch(
+      "https://raw.githubusercontent.com/EdithOrt/test-project/master/db.json"
+    );
+    const result = await database.json();
+    console.log(result);
+  };
+  getData(); */
+
+  let [data, setData] = useState();
+  /* const getData = async () => {
+    const database = await fetch(
+      "https://raw.githubusercontent.com/EdithOrt/test-project/master/db.json"
+    );
+    const result = await database.json();
+    console.log(result);
+    setData(result);
+  }; */
+
+  /*  useEffect(() => {
+    getData();
+  }, []); */
 
   return (
     <div>

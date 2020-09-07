@@ -1,3 +1,12 @@
+/* const getData = async () => {
+  const database = await fetch(
+    "https://raw.githubusercontent.com/EdithOrt/test-project/master/db.json"
+  );
+  const result = await database.json();
+  console.log(result);
+  return result;
+}; */
+
 const optionBubbleB = {
   chart: {
     type: "packedbubble",
@@ -12,8 +21,8 @@ const optionBubbleB = {
   },
   plotOptions: {
     packedbubble: {
-      minSize: "20%",
-      maxSize: "100%",
+      minSize: "0.01%",
+      maxSize: "500%",
       zMin: 0,
       zMax: 1000,
       layoutAlgorithm: {
@@ -29,7 +38,7 @@ const optionBubbleB = {
         filter: {
           property: "y",
           operator: ">",
-          value: 250,
+          value: 10,
         },
         style: {
           color: "black",
@@ -39,506 +48,425 @@ const optionBubbleB = {
       },
     },
   },
-  series: [
+  series: null,
+  /* series: [
     {
       name: "Sistemas",
+      color: "#000",
       data: [
         {
-          name: "Germany",
-          value: 767.1,
+          name: "Diana Rosas",
+          value: 18.21,
         },
         {
-          name: "Croatia",
-          value: 20.7,
+          name: "Olimpia Coria",
+          value: 13,
         },
         {
-          name: "Belgium",
-          value: 97.2,
+          name: "JoaquÌn RodrÌguez",
+          value: 15,
         },
         {
-          name: "Czech Republic",
-          value: 111.7,
+          name: "Juana Ch·vez",
+          value: 11,
         },
         {
-          name: "Netherlands",
-          value: 158.1,
+          name: "Andrea Morales",
+          value: 16,
         },
         {
-          name: "Spain",
-          value: 241.6,
+          name: "Alan Ju·rez",
+          value: 10,
         },
         {
-          name: "Ukraine",
-          value: 249.1,
+          name: "Elizabeth Esquivel",
+          value: 14,
         },
         {
-          name: "Poland",
-          value: 298.1,
+          name: "Rita Luna",
+          value: 9,
         },
         {
-          name: "France",
-          value: 323.7,
+          name: "Axel Rojas",
+          value: 11,
         },
         {
-          name: "Romania",
-          value: 78.3,
-        },
-        {
-          name: "United Kingdom",
-          value: 415.4,
-        },
-        {
-          name: "Turkey",
-          value: 353.2,
-        },
-        {
-          name: "Italy",
-          value: 337.6,
-        },
-        {
-          name: "Greece",
-          value: 71.1,
-        },
-        {
-          name: "Austria",
-          value: 69.8,
-        },
-        {
-          name: "Belarus",
-          value: 67.7,
-        },
-        {
-          name: "Serbia",
-          value: 59.3,
-        },
-        {
-          name: "Finland",
-          value: 54.8,
-        },
-        {
-          name: "Bulgaria",
-          value: 51.2,
-        },
-        {
-          name: "Portugal",
-          value: 48.3,
-        },
-        {
-          name: "Norway",
-          value: 44.4,
-        },
-        {
-          name: "Sweden",
-          value: 44.3,
-        },
-        {
-          name: "Hungary",
-          value: 43.7,
-        },
-        {
-          name: "Switzerland",
-          value: 40.2,
-        },
-        {
-          name: "Denmark",
-          value: 40,
-        },
-        {
-          name: "Slovakia",
-          value: 34.7,
-        },
-        {
-          name: "Ireland",
-          value: 34.6,
-        },
-        {
-          name: "Croatia",
-          value: 20.7,
-        },
-        {
-          name: "Estonia",
-          value: 19.4,
-        },
-        {
-          name: "Slovenia",
-          value: 16.7,
-        },
-        {
-          name: "Lithuania",
-          value: 12.3,
-        },
-        {
-          name: "Luxembourg",
-          value: 10.4,
-        },
-        {
-          name: "Macedonia",
-          value: 9.5,
-        },
-        {
-          name: "Moldova",
-          value: 7.8,
-        },
-        {
-          name: "Latvia",
-          value: 7.5,
-        },
-        {
-          name: "Cyprus",
-          value: 7.2,
+          name: "Gustavo Salazar",
+          value: 7,
         },
       ],
     },
     {
-      name: "Africa",
+      name: "Ventas",
       data: [
         {
-          name: "Senegal",
-          value: 8.2,
+          name: "Dante Gonz·lez",
+          value: 14,
         },
         {
-          name: "Cameroon",
-          value: 9.2,
+          name: "Karla Rea",
+          value: 9,
         },
         {
-          name: "Zimbabwe",
-          value: 13.1,
+          name: "Paola Torres",
+          value: 18,
         },
         {
-          name: "Ghana",
-          value: 14.1,
+          name: "Iris GutiÈrrez",
+          value: 9.6,
         },
         {
-          name: "Kenya",
-          value: 14.1,
-        },
-        {
-          name: "Sudan",
-          value: 17.3,
-        },
-        {
-          name: "Tunisia",
-          value: 24.3,
-        },
-        {
-          name: "Angola",
-          value: 25,
-        },
-        {
-          name: "Libya",
-          value: 50.6,
-        },
-        {
-          name: "Ivory Coast",
-          value: 7.3,
-        },
-        {
-          name: "Morocco",
-          value: 60.7,
-        },
-        {
-          name: "Ethiopia",
+          name: "Rembrant PiÒa",
           value: 8.9,
         },
         {
-          name: "United Republic of Tanzania",
-          value: 9.1,
+          name: "Sarahi Tapia",
+          value: 15.8,
         },
         {
-          name: "Nigeria",
-          value: 93.9,
+          name: "Ruth CortÈs",
+          value: 17.2,
         },
         {
-          name: "South Africa",
-          value: 392.7,
+          name: "Hermenegildo Frias",
+          value: 14,
         },
         {
-          name: "Egypt",
-          value: 225.1,
+          name: "Rosaura LÛpez",
+          value: 5.8,
         },
         {
-          name: "Algeria",
-          value: 141.5,
-        },
-      ],
-    },
-    {
-      name: "Oceania",
-      data: [
-        {
-          name: "Australia",
-          value: 409.4,
+          name: "Diana Hern·ndez",
+          value: 12.7,
         },
         {
-          name: "New Zealand",
-          value: 34.1,
+          name: "JosÈ Duarte",
+          value: 15.4,
         },
         {
-          name: "Papua New Guinea",
-          value: 7.1,
-        },
-      ],
-    },
-    {
-      name: "North America",
-      data: [
-        {
-          name: "Costa Rica",
-          value: 7.6,
+          name: "Manuel Obrador",
+          value: 2.2,
         },
         {
-          name: "Honduras",
-          value: 8.4,
+          name: "Enrique de la PeÒa",
+          value: 15.8,
         },
         {
-          name: "Jamaica",
-          value: 8.3,
+          name: "Fernanda Plata",
+          value: 19.4,
         },
         {
-          name: "Panama",
-          value: 10.2,
+          name: "Roberto DomÌguez",
+          value: 4.2,
         },
         {
-          name: "Guatemala",
-          value: 12,
+          name: "Aldair Cano",
+          value: 16.5,
         },
         {
-          name: "Dominican Republic",
-          value: 23.4,
+          name: "Noe Gallagher",
+          value: 4.8,
         },
         {
-          name: "Cuba",
-          value: 30.2,
+          name: "Jatziri Cuevas",
+          value: 16.1,
         },
         {
-          name: "USA",
-          value: 5334.5,
+          name: "Bruno DÌaz",
+          value: 3.9,
         },
         {
-          name: "Canada",
-          value: 566,
-        },
-        {
-          name: "Mexico",
-          value: 456.3,
+          name: "Marlene NuÒez",
+          value: 17,
         },
       ],
     },
     {
-      name: "South America",
+      name: "Operaciones",
       data: [
         {
-          name: "El Salvador",
-          value: 7.2,
+          name: "Brenda Alejo",
+          value: 20,
         },
         {
-          name: "Uruguay",
-          value: 8.1,
+          name: "Marta Uribe",
+          value: 17.3,
         },
         {
-          name: "Bolivia",
-          value: 17.8,
+          name: "Carla Morales",
+          value: 15,
         },
         {
-          name: "Trinidad and Tobago",
-          value: 34,
+          name: "AnahÌ Acevedo",
+          value: 8.5,
         },
         {
-          name: "Ecuador",
-          value: 43,
+          name: "Luis Fern·ndez",
+          value: 6.7,
         },
         {
-          name: "Chile",
-          value: 78.6,
+          name: "Tom·s Carranza",
+          value: 18.5,
         },
         {
-          name: "Peru",
-          value: 52,
+          name: "Daniela PerÈz",
+          value: 5,
         },
         {
-          name: "Colombia",
-          value: 74.1,
+          name: "Ulises Tapia",
+          value: 3,
         },
         {
-          name: "Brazil",
-          value: 501.1,
-        },
-        {
-          name: "Argentina",
-          value: 199,
-        },
-        {
-          name: "Venezuela",
-          value: 195.2,
-        },
-      ],
-    },
-    {
-      name: "Asia",
-      data: [
-        {
-          name: "Nepal",
-          value: 6.5,
-        },
-        {
-          name: "Georgia",
-          value: 6.5,
-        },
-        {
-          name: "Brunei Darussalam",
-          value: 7.4,
-        },
-        {
-          name: "Kyrgyzstan",
-          value: 7.4,
-        },
-        {
-          name: "Afghanistan",
-          value: 7.9,
-        },
-        {
-          name: "Myanmar",
-          value: 9.1,
-        },
-        {
-          name: "Mongolia",
-          value: 14.7,
-        },
-        {
-          name: "Sri Lanka",
+          name: "Genaro Urban",
           value: 16.6,
         },
         {
-          name: "Bahrain",
-          value: 20.5,
-        },
-        {
-          name: "Yemen",
-          value: 22.6,
-        },
-        {
-          name: "Jordan",
-          value: 22.3,
-        },
-        {
-          name: "Lebanon",
-          value: 21.1,
-        },
-        {
-          name: "Azerbaijan",
-          value: 31.7,
-        },
-        {
-          name: "Singapore",
-          value: 47.8,
-        },
-        {
-          name: "Hong Kong",
-          value: 49.9,
-        },
-        {
-          name: "Syria",
-          value: 52.7,
-        },
-        {
-          name: "DPR Korea",
-          value: 59.9,
-        },
-        {
-          name: "Israel",
-          value: 64.8,
-        },
-        {
-          name: "Turkmenistan",
-          value: 70.6,
-        },
-        {
-          name: "Oman",
-          value: 74.3,
-        },
-        {
-          name: "Qatar",
-          value: 88.8,
-        },
-        {
-          name: "Philippines",
-          value: 96.9,
-        },
-        {
-          name: "Kuwait",
-          value: 98.6,
-        },
-        {
-          name: "Uzbekistan",
-          value: 122.6,
-        },
-        {
-          name: "Iraq",
-          value: 139.9,
-        },
-        {
-          name: "Pakistan",
-          value: 158.1,
-        },
-        {
-          name: "Vietnam",
-          value: 190.2,
-        },
-        {
-          name: "United Arab Emirates",
-          value: 201.1,
-        },
-        {
-          name: "Malaysia",
-          value: 227.5,
-        },
-        {
-          name: "Kazakhstan",
-          value: 236.2,
-        },
-        {
-          name: "Thailand",
-          value: 272,
-        },
-        {
-          name: "Taiwan",
-          value: 276.7,
-        },
-        {
-          name: "Indonesia",
-          value: 453,
-        },
-        {
-          name: "Saudi Arabia",
-          value: 494.8,
-        },
-        {
-          name: "Japan",
-          value: 1278.9,
-        },
-        {
-          name: "China",
-          value: 10540.8,
-        },
-        {
-          name: "India",
-          value: 2341.9,
-        },
-        {
-          name: "Russia",
-          value: 1766.4,
-        },
-        {
-          name: "Iran",
-          value: 618.2,
-        },
-        {
-          name: "Korea",
-          value: 610.1,
+          name: "Manuel Torres",
+          value: 11.2,
         },
       ],
     },
-  ],
+    {
+      name: "Producción",
+      data: [
+        {
+          name: "Jorge Pérez",
+          value: 7.1,
+        },
+        {
+          name: "Susana Distancia",
+          value: 2.7,
+        },
+        {
+          name: "Ximena Celis",
+          value: 3.3,
+        },
+        {
+          name: "Victor Toledo",
+          value: 4.2,
+        },
+        {
+          name: "Leonora Carrington",
+          value: 13.3,
+        },
+        {
+          name: "Jorge Ramos",
+          value: 11.1,
+        },
+        {
+          name: "Ingrid Terrón",
+          value: 9,
+        },
+        {
+          name: "Leoncia Mares",
+          value: 6.7,
+        },
+        {
+          name: "Ramiro González",
+          value: 17.8,
+        },
+        {
+          name: "Iris Trejo",
+          value: 6.3,
+        },
+      ],
+    },
+    {
+      name: "Marketing",
+      data: [
+        {
+          name: "Arcelia Ramírez",
+          value: 7.1,
+        },
+        {
+          name: "Sabina Berman",
+          value: 8.3,
+        },
+        {
+          name: "Demian Hirst",
+          value: 20.3,
+        },
+        {
+          name: "Gustavo Sainz",
+          value: 3.3,
+        },
+        {
+          name: "Salomón Díaz",
+          value: 13.4,
+        },
+        {
+          name: "Laura Restrepo",
+          value: 5.3,
+        },
+        {
+          name: "Julio Cortázar",
+          value: 7.7,
+        },
+        {
+          name: "Isabel Allende",
+          value: 8.9,
+        },
+        {
+          name: "Gabriel García Márquez",
+          value: 10.9,
+        },
+        {
+          name: "Guadalupe Nettel",
+          value: 6.7,
+        },
+        {
+          name: "Roberto Juarróz",
+          value: 8.8,
+        },
+        {
+          name: "Daniela Alejo",
+          value: 4,
+        },
+        {
+          name: "JoaquÌn Larios",
+          value: 8.4,
+        },
+        {
+          name: "Ivonne Kuri",
+          value: 6.8,
+        },
+        {
+          name: "Marisol Fuentes",
+          value: 10.5,
+        },
+      ],
+    },
+    {
+      name: "Recursos Humanos",
+      data: [
+        {
+          name: "Nubal Noah Harari",
+          value: 2.2,
+        },
+        {
+          name: "Egon Schiele",
+          value: 10.3,
+        },
+        {
+          name: "Mario Vargas Losa",
+          value: 4.3,
+        },
+        {
+          name: "Jared Diamond",
+          value: 4.5,
+        },
+        {
+          name: "Josefa Gonzalez Blanco",
+          value: 10.7,
+        },
+        {
+          name: "Gorge Orwell",
+          value: 5.8,
+        },
+        {
+          name: "Octavio Paz",
+          value: 17.5,
+        },
+        {
+          name: "Albert Camus",
+          value: 8.5,
+        },
+        {
+          name: "Oracio Quiroga",
+          value: 8.5,
+        },
+        {
+          name: "Oscar Wilde",
+          value: 9.9,
+        },
+        {
+          name: "Simone de Beauvoir",
+          value: 2.5,
+        },
+        {
+          name: "Angelica Ramos",
+          value: 20.3,
+        },
+        {
+          name: "Jean Paul Sartre",
+          value: 13.4,
+        },
+        {
+          name: "HUmberto Eco",
+          value: 18.9,
+        },
+        {
+          name: "Julia Carabias",
+          value: 7.1,
+        },
+        {
+          name: "josé Sarukhán",
+          value: 1.1,
+        },
+        {
+          name: "Antonio Lazcano",
+          value: 8.9,
+        },
+
+        {
+          name: "José Saramago",
+          value: 17.9,
+        },
+        {
+          name: "Mario Molina",
+          value: 12.3,
+        },
+        {
+          name: "Miguel Angel de Quevedo",
+          value: 9.8,
+        },
+        {
+          name: "Patricia Morales",
+          value: 7.9,
+        },
+        {
+          name: "Cecilia Mendoza",
+          value: 4,
+        },
+        {
+          name: "Denisse Dresser",
+          value: 4.5,
+        },
+        {
+          name: "Carmen Aristegui",
+          value: 4.5,
+        },
+        {
+          name: "Sergio Aguayo",
+          value: 7.3,
+        },
+        {
+          name: "Lorenzo Meyer",
+          value: 12.3,
+        },
+        {
+          name: "Javier Solórzano",
+          value: 11.3,
+        },
+        {
+          name: "Maria Luisa Albores",
+          value: 3.2,
+        },
+      ],
+    },
+  ], */
 };
 
+const getData = () => {
+  const database = fetch(
+    "https://raw.githubusercontent.com/EdithOrt/test-project/master/db.json"
+  );
+  /* console.log(database); */
+  const data = database.then((res) => res.json());
+  data.then((res) => console.log(res));
+};
+
+console.log(getData());
+
+console.log(optionBubbleB);
 export default optionBubbleB;

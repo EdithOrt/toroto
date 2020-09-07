@@ -4,7 +4,7 @@ const optionBubbleIndividual = {
     height: "100%",
   },
   title: {
-    text: "Carbon emissions around the world (2014)",
+    text: "Mi huella",
   },
   tooltip: {
     useHTML: true,
@@ -12,13 +12,16 @@ const optionBubbleIndividual = {
   },
   plotOptions: {
     packedbubble: {
-      minSize: "30%",
-      maxSize: "120%",
+      minSize: "20%",
+      maxSize: "100%",
       zMin: 0,
       zMax: 1000,
       layoutAlgorithm: {
-        splitSeries: false,
-        gravitationalConstant: 0.02,
+        gravitationalConstant: 0.05,
+        splitSeries: true,
+        seriesInteraction: false,
+        dragBetweenSeries: true,
+        parentNodeLimit: true,
       },
       dataLabels: {
         enabled: true,
@@ -26,7 +29,7 @@ const optionBubbleIndividual = {
         filter: {
           property: "y",
           operator: ">",
-          value: 250,
+          value: 1,
         },
         style: {
           color: "black",
@@ -38,19 +41,54 @@ const optionBubbleIndividual = {
   },
   series: [
     {
-      name: "Oceania",
+      name: "Julio",
       data: [
         {
-          name: "Australia",
-          value: 409.4,
+          name: "01 de julio de 2020",
+          value: 18.9,
         },
         {
-          name: "New Zealand",
-          value: 34.1,
+          name: "15 de julio de 2020",
+          value: 8.1,
+        },
+      ],
+    },
+    {
+      name: "Agosto",
+      data: [
+        {
+          name: "01 de agosto de 2020",
+          value: 4.7,
         },
         {
-          name: "Papua New Guinea",
+          name: "15 de agosto de 2020",
           value: 7.1,
+        },
+      ],
+    },
+    {
+      name: "Septiembre",
+      data: [
+        {
+          name: "01 de septiembre de 2020",
+          value: 9.4,
+        },
+        {
+          name: "15 de septiembe de 2020",
+          value: 2,
+        },
+      ],
+    },
+    {
+      name: "Octubre",
+      data: [
+        {
+          name: "01 de octubre de 2020",
+          value: 5,
+        },
+        {
+          name: "15 de octubre de 2020",
+          value: 2,
         },
       ],
     },

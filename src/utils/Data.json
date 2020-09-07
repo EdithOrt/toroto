@@ -1,421 +1,414 @@
 [
   {
-      area: "Sistemas",
-      data:
-      [
-        {
-          employee: "Diana Rosas",
-          footPrintMonth: 18.21
-        },
-        {
-          employee: "Olimpia Coria",
-          footPrintMonth: 13,
-        },
-        {
-            employee: "JoaquÌn RodrÌguez",
-            footPrintMonth: 15,
-        },
-        {
-          employee: "Juana Ch·vez",
-          footPrintMonth: 11,
-        },
-        {
-          employee: "Andrea Morales",
-          footPrintMonth: 16,
-        },
-        {
-          employee: "Alan Ju·rez",
-          footPrintMonth: 10,
-        },
-        {
-          employee: "Elizabeth Esquivel",
-          footPrintMonth: 14,
-        },
-        {
-          employee: "Rita Luna",
-          footPrintMonth: 9,
-        },
-        {
-          employee: "Axel Rojas",
-          footPrintMonth: 11,
-        },
-        {
-          employee: "Gustavo Salazar",
-          footPrintMonth: 7,
-        },
-      ]
-    },
-    {
-      area: "Ventas",
-      data: 
-      [
-        {
-          employee: "Dante Gonz·lez",
-          footPrintMonth: 14,
-        },
-        {
-          employee: "Karla Rea",
-          footPrintMonth: 9,
-        },
-        {
-          employee: "Paola Torres",
-          footPrintMonth: 18,
-        },
-        {
-          employee: "Iris GutiÈrrez",
-          footPrintMonth: 9.6,
-        },
-        {
-          employee: "Rembrant PiÒa",
-          footPrintMonth: 8.9,
-        },
-        {
-          employee: "Sarahi Tapia",
-          footPrintMonth: 15.8,
-        },
-        {
-          employee: "Ruth CortÈs",
-          footPrintMonth: 17.2,
-        },
-        {
-          employee: "Hermenegildo Frias",
-          footPrintMonth: 14,
-        },
-        {
-          employee: "Rosaura LÛpez",
-          footPrintMonth: 5.8,
-        },
-        {
-          employee: "Diana Hern·ndez",
-          footPrintMonth: 12.7,
-        },
-        {
-          employee: "JosÈ Duarte"
-          footPrintMonth: 15.4,
-        },
-        {
-          employee: "Manuel Obrador",
-          footPrintMonth: 2.2
-        },
-        {
-          employee: "Enrique de la PeÒa",
-          footPrintMonth: 15.8,
-        },
-        {
-          employee: "Fernanda Plata",
-          footPrintMonth: 19.4,
-        },
-        {
-          employee: "Roberto DomÌguez",
-          footPrintMonth: 4.2,
-        },
-        {
-          employee: "Aldair Cano",
-          footPrintMonth: 16.5,
-        },
-        {
-          employee: "Noe Gallagher",
-          footPrintMonth: 4.8,
-        },
-        {
-          employee: "Jatziri Cuevas",
-          footPrintMonth: 16.1,
-        },
-        {
-          employee: "Bruno DÌaz",
-          footPrintMonth: 3.9,
-        },
-        {
-          employee: "Marlene NuÒez",
-          footPrintMonth: 17,
-        }
-      ]
-    },
-    {
-      area: "Operaciones",
-      data: 
-      [
-        {
-          employee: "Brenda Alejo",
-          footPrintMonth: 20,
-        },
-        {
-          employee: "Marta Uribe",
-          footPrintMonth: 17.3,
-        }, 
-        {
-          employee: "Carla Morales",
-          footPrintMonth: 15,
-        },
-        {
-          employee: "AnahÌ Acevedo",
-          footPrintMonth: 8.5,
-        },
-        {
-          employee: "Luis Fern·ndez",
-          footPrintMonth: 6.7,
-        },
-        {
-          employee: "Tom·s Carranza",
-          footPrintMonth: 18.5.,
-        },
-        {
-          employee: "Daniela PerÈz",
-          footPrintMonth: 5,
-        },
-        {
-          employee: "Ulises Tapia",
-          footPrintMonth: 3,
-        },
-        {
-          employee: "Genaro Urban",
-          footPrintMonth: 16.6,
-        },
-        {
-          employee: "Manuel Torres",
-          footPrintMonth: 11.2,
-        }
-      ]
-    },
-  {
-    area: "Operaciones",
-    data: 
-    [
+    "name": "Sistemas",
+    "data": [
       {
-        employee: "Germany",
-        footPrintMonth: 767.1,
+        "name": "Diana Rosas",
+        "value": 18.21
+      },
+      {
+        "name": "Olimpia Coria",
+        "value": 13
+      },
+      {
+        "name": "JoaquÌn RodrÌguez",
+        "value": 15
+      },
+      {
+        "name": "Juana Chavez",
+        "value": 11
+      },
+      {
+        "name": "Andrea Morales",
+        "value": 16
+      },
+      {
+        "name": "Alan Ju·rez",
+        "value": 10
+      },
+      {
+        "name": "Elizabeth Esquivel",
+        "value": 14
+      },
+      {
+        "name": "Rita Luna",
+        "value": 9
+      },
+      {
+        "name": "Axel Rojas",
+        "value": 11
+      },
+      {
+        "name": "Gustavo Salazar",
+        "value": 7
       }
     ]
   },
   {
-    area: "Producción",
-    data: 
-    [
+    "name": "Ventas",
+    "data": [
       {
-        employee: "Jorge Pérez",
-        footPrintMonth: 7.1,
-      },
-       {
-        employee: "Susana Distancia",
-        footPrintMonth: 2.7,
-      },
-       {
-        employee: "Ximena Celis",
-        footPrintMonth: 3.3,
-      },
-       {
-        employee: "Victor Toledo",
-        footPrintMonth: 4.2,
-      },
-       {
-        employee: "Leonora Carrington",
-        footPrintMonth: 13.3,
-      },
-       {
-        employee: "Jorge Ramos",
-        footPrintMonth: 11.1,
-      },
-       {
-        employee: "Ingrid Terrón",
-        footPrintMonth: 9,
-      },
-       {
-        employee: "Leoncia Mares",
-        footPrintMonth: 6.7,
-      },
-       {
-        employee: "Ramiro González",
-        footPrintMonth: 17.8,
-      },
-       {
-        employee: "Iris Trejo",
-        footPrintMonth: 6.3,
-      },
-    ]
-  },
-  {
-    area: "Marketing",
-    data: 
-    [
-      {
-        employee: "Arcelia Ramírez",
-        footPrintMonth: 7.1,
+        "name": "Dante Gonz·lez",
+        "value": 14
       },
       {
-        employee: "Sabina Berman",
-        footPrintMonth: 8.3,
+        "name": "Karla Rea",
+        "value": 9
       },
       {
-        employee: "Demian Hirst",
-        footPrintMonth: 20.3,
+        "name": "Paola Torres",
+        "value": 18
       },
       {
-        employee: "Gustavo Sainz",
-        footPrintMonth: 3.3,
+        "name": "Iris GutiÈrrez",
+        "value": 9.6
       },
       {
-        employee: "Salomón Díaz",
-        footPrintMonth: 13.4,
+        "name": "Rembrant PiÒa",
+        "value": 8.9
       },
       {
-        employee: "Laura Restrepo",
-        footPrintMonth: 5.3,
+        "name": "Sarahi Tapia",
+        "value": 15.8
       },
       {
-        employee: "Julio Cortázar",
-        footPrintMonth: 7.7,
+        "name": "Ruth CortÈs",
+        "value": 17.2
       },
       {
-        employee: "Isabel Allende",
-        footPrintMonth: 8.9,
+        "name": "Hermenegildo Frias",
+        "value": 14
       },
       {
-        employee: "Gabriel García Márquez",
-        footPrintMonth: 10.9,
+        "name": "Rosaura LÛpez",
+        "value": 5.8
       },
       {
-        employee: "Guadalupe Nettel",
-        footPrintMonth: 6.7,
+        "name": "Diana Hern·ndez",
+        "value": 12.7
       },
-       {
-        employee: "Roberto Juarróz",
-        footPrintMonth: 8.8,
+      {
+        "name": "JosÈ Duarte",
+        "value": 15.4
       },
-       {
-        employee: "Daniela Alejo",
-        footPrintMonth: 4,
+      {
+        "name": "Manuel Obrador",
+        "value": 2.2
       },
-       {
-        employee: "JoaquÌn Larios",
-        footPrintMonth: 8.4,
+      {
+        "name": "Enrique de la PeÒa",
+        "value": 15.8
       },
-       {
-        employee: "Ivonne Kuri",
-        footPrintMonth: 6.8,
+      {
+        "name": "Fernanda Plata",
+        "value": 19.4
       },
-       {
-        employee: "Marisol Fuentes",
-        footPrintMonth: 9.5,
+      {
+        "name": "Roberto DomÌguez",
+        "value": 4.2
+      },
+      {
+        "name": "Aldair Cano",
+        "value": 16.5
+      },
+      {
+        "name": "Noe Gallagher",
+        "value": 4.8
+      },
+      {
+        "name": "Jatziri Cuevas",
+        "value": 16.1
+      },
+      {
+        "name": "Bruno DÌaz",
+        "value": 3.9
+      },
+      {
+        "name": "Marlene NuÒez",
+        "value": 17
       }
     ]
   },
   {
-    area: "Recursos Humanos",
-    data: 
-    [
+    "name": "Operaciones",
+    "data": [
       {
-        employee: "Nubal Noah Harari",
-        footPrintMonth: 2.2,
+        "name": "Brenda Alejo",
+        "value": 20
       },
       {
-        employee: "Egon Schiele",
-        footPrintMonth: 10.3,
+        "name": "Marta Uribe",
+        "value": 17.3
       },
       {
-        employee: "Mario Vargas Losa",
-        footPrintMonth: 4.3,
+        "name": "Carla Morales",
+        "value": 15
       },
       {
-        employee: "Jared Diamond",
-        footPrintMonth: 4.5,
+        "name": "AnahÌ Acevedo",
+        "value": 8.5
       },
       {
-        employee: "Josefa Gonzalez Blanco",
-        footPrintMonth: 10.7,
+        "name": "Luis Fern·ndez",
+        "value": 6.7
       },
       {
-        employee: "Gorge Orwell",
-        footPrintMonth: 5.8,
+        "name": "Tom·s Carranza",
+        "value": 18.5
       },
       {
-        employee: "Octavio Paz",
-        footPrintMonth: 17.5,
+        "name": "Daniela PerÈz",
+        "value": 5
       },
       {
-        employee: "Albert Camus",
-        footPrintMonth: 8.5,
+        "name": "Ulises Tapia",
+        "value": 3
       },
       {
-        employee: "Oracio Quiroga",
-        footPrintMonth: 8.5,
+        "name": "Genaro Urban",
+        "value": 16.6
       },
       {
-        employee: "Oscar Wilde",
-        footPrintMonth: 9.9,
+        "name": "Manuel Torres",
+        "value": 11.2
+      }
+    ]
+  },
+  {
+    "name": "Operaciones",
+    "data": [
+      {
+        "name": "Germany",
+        "value": 767.1
+      }
+    ]
+  },
+  {
+    "name": "Producción",
+    "data": [
+      {
+        "name": "Jorge Pérez",
+        "value": 7.1
       },
       {
-        employee: "Simone de Beauvoir",
-        footPrintMonth: 2.5,
+        "name": "Susana Distancia",
+        "value": 2.7
       },
       {
-        employee: "Angelica Ramos",
-        footPrintMonth: 20.3,
+        "name": "Ximena Celis",
+        "value": 3.3
       },
       {
-        employee: "Jean Paul Sartre",
-        footPrintMonth: 13.4,
+        "name": "Victor Toledo",
+        "value": 4.2
       },
       {
-        employee: "HUmberto Eco",
-        footPrintMonth: 18.9,
+        "name": "Leonora Carrington",
+        "value": 13.3
       },
       {
-        employee: "Julia Carabias",
-        footPrintMonth: 7.1,
+        "name": "Jorge Ramos",
+        "value": 11.1
       },
       {
-        employee: "josé Sarukhán",
-        footPrintMonth: 1.1,
+        "name": "Ingrid Terrón",
+        "value": 9
       },
       {
-        employee: "Antonio Lazcano",
-        footPrintMonth: 8.9,
+        "name": "Leoncia Mares",
+        "value": 6.7
+      },
+      {
+        "name": "Ramiro González",
+        "value": 17.8
+      },
+      {
+        "name": "Iris Trejo",
+        "value": 6.3
+      }
+    ]
+  },
+  {
+    "name": "Marketing",
+    "data": [
+      {
+        "name": "Arcelia Ramírez",
+        "value": 7.1
+      },
+      {
+        "name": "Sabina Berman",
+        "value": 8.3
+      },
+      {
+        "name": "Demian Hirst",
+        "value": 20.3
+      },
+      {
+        "name": "Gustavo Sainz",
+        "value": 3.3
+      },
+      {
+        "name": "Salomón Díaz",
+        "value": 13.4
+      },
+      {
+        "name": "Laura Restrepo",
+        "value": 5.3
+      },
+      {
+        "name": "Julio Cortázar",
+        "value": 7.7
+      },
+      {
+        "name": "Isabel Allende",
+        "value": 8.9
+      },
+      {
+        "name": "Gabriel García Márquez",
+        "value": 10.9
+      },
+      {
+        "name": "Guadalupe Nettel",
+        "value": 6.7
+      },
+      {
+        "name": "Roberto Juarróz",
+        "value": 8.8
+      },
+      {
+        "name": "Daniela Alejo",
+        "value": 4
+      },
+      {
+        "name": "JoaquÌn Larios",
+        "value": 8.4
+      },
+      {
+        "name": "Ivonne Kuri",
+        "value": 6.8
+      },
+      {
+        "name": "Marisol Fuentes",
+        "value": 9.5
+      }
+    ]
+  },
+  {
+    "name": "Recursos Humanos",
+    "data": [
+      {
+        "name": "Nubal Noah Harari",
+        "value": 2.2
+      },
+      {
+        "name": "Egon Schiele",
+        "value": 10.3
+      },
+      {
+        "name": "Mario Vargas Losa",
+        "value": 4.3
+      },
+      {
+        "name": "Jared Diamond",
+        "value": 4.5
+      },
+      {
+        "name": "Josefa Gonzalez Blanco",
+        "value": 10.7
+      },
+      {
+        "name": "Gorge Orwell",
+        "value": 5.8
+      },
+      {
+        "name": "Octavio Paz",
+        "value": 17.5
+      },
+      {
+        "name": "Albert Camus",
+        "value": 8.5
+      },
+      {
+        "name": "Oracio Quiroga",
+        "value": 8.5
+      },
+      {
+        "name": "Oscar Wilde",
+        "value": 9.9
+      },
+      {
+        "name": "Simone de Beauvoir",
+        "value": 2.5
+      },
+      {
+        "name": "Angelica Ramos",
+        "value": 20.3
+      },
+      {
+        "name": "Jean Paul Sartre",
+        "value": 13.4
+      },
+      {
+        "name": "HUmberto Eco",
+        "value": 18.9
+      },
+      {
+        "name": "Julia Carabias",
+        "value": 7.1
+      },
+      {
+        "name": "josé Sarukhán",
+        "value": 1.1
+      },
+      {
+        "name": "Antonio Lazcano",
+        "value": 8.9
       },
 
       {
-        employee: "José Saramago",
-        footPrintMonth: 17.9,
+        "name": "José Saramago",
+        "value": 17.9
       },
       {
-        employee: "Mario Molina",
-        footPrintMonth: 12.3,
+        "name": "Mario Molina",
+        "value": 12.3
       },
       {
-        employee: "Miguel Angel de Quevedo",
-        footPrintMonth: 9.8,
+        "name": "Miguel Angel de Quevedo",
+        "value": 9.8
       },
       {
-        employee: "Patricia Morales",
-        footPrintMonth: 7.9
+        "name": "Patricia Morales",
+        "value": 7.9
       },
       {
-        employee: "Cecilia Mendoza",
-        footPrintMonth: 4
+        "name": "Cecilia Mendoza",
+        "value": 4
       },
       {
-        employee: "Denisse Dresser",
-        footPrintMonth: 4.5,
+        "name": "Denisse Dresser",
+        "value": 4.5
       },
       {
-        employee: "Carmen Aristegui",
-        footPrintMonth: 4.5
+        "name": "Carmen Aristegui",
+        "value": 4.5
       },
       {
-        employee: "Sergio Aguayo",
-        footPrintMonth: 7.3
+        "name": "Sergio Aguayo",
+        "value": 7.3
       },
       {
-        employee: "Lorenzo Meyer",
-        footPrintMonth: 12.3
+        "name": "Lorenzo Meyer",
+        "value": 12.3
       },
       {
-        employee: "Javier Solórzano",
-        footPrintMonth: 11.3
+        "name": "Javier Solórzano",
+        "value": 11.3
       },
       {
-        employee: "Maria Luisa Albores",
-        footPrintMonth: 3.2
-      },
+        "name": "Maria Luisa Albores",
+        "value": 3.2
+      }
     ]
   }
 ]
