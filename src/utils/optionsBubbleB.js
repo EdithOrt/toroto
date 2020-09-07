@@ -41,7 +41,7 @@ const optionBubbleB = {
   },
   series: [
     {
-      name: "Europe",
+      name: "Sistemas",
       data: [
         {
           name: "Germany",

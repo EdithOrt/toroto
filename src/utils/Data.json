@@ -5,7 +5,7 @@
       [
         {
           employee: "Diana Rosas",
-          footPrintMonth: 18.21,
+          footPrintMonth: 18.21
         },
         {
           employee: "Olimpia Coria",
@@ -90,12 +90,12 @@
           footPrintMonth: 12.7,
         },
         {
-          employee: "JosÈ Duarte",
+          employee: "JosÈ Duarte"
           footPrintMonth: 15.4,
         },
         {
           employee: "Manuel Obrador",
-          footPrintMonth: 2.2,
+          footPrintMonth: 2.2
         },
         {
           employee: "Enrique de la PeÒa",
@@ -386,11 +386,11 @@
       },
       {
         employee: "Patricia Morales",
-        footPrintMonth: 7.9,
+        footPrintMonth: 7.9
       },
       {
         employee: "Cecilia Mendoza",
-        footPrintMonth: 4,
+        footPrintMonth: 4
       },
       {
         employee: "Denisse Dresser",
@@ -398,23 +398,23 @@
       },
       {
         employee: "Carmen Aristegui",
-        footPrintMonth: 4.5,
+        footPrintMonth: 4.5
       },
       {
         employee: "Sergio Aguayo",
-        footPrintMonth: 7.3,
+        footPrintMonth: 7.3
       },
       {
         employee: "Lorenzo Meyer",
-        footPrintMonth: 12.3,
+        footPrintMonth: 12.3
       },
       {
         employee: "Javier Solórzano",
-        footPrintMonth: 11.3,
+        footPrintMonth: 11.3
       },
       {
         employee: "Maria Luisa Albores",
-        footPrintMonth: 3.2,
+        footPrintMonth: 3.2
       },
     ]
   }
