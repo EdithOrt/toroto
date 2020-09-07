@@ -3,6 +3,7 @@ import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 import optionsBubbleB from "../../utils/optionsBubbleB";
 import more from "highcharts/highcharts-more";
+
 more(Highcharts);
 
 const GraphicBubbleB = () => {
@@ -36,23 +37,36 @@ value:res.footPrint.foot}]
   };
   getData(); */
 
-  let [data, setData] = useState();
-  /* const getData = async () => {
-    const database = await fetch(
+  let [dataState, setDataState] = useState();
+
+  const getData = () => {
+    const database = fetch(
       "https://raw.githubusercontent.com/EdithOrt/test-project/master/db.json"
     );
-    const result = await database.json();
-    console.log(result);
-    setData(result);
-  }; */
+    const data = database.then((res) => res.json());
+    let valor = data.then((res) => {
+      return res;
+    });
+    valor.then((resp) => {
+      if (resp != null) {
+        setDataState(resp);
+        resp.map((uno) => {
+          console.log(uno);
+        });
+        console.log(resp);
+      }
+    });
+  };
 
-  /*  useEffect(() => {
+  useEffect(() => {
     getData();
-  }, []); */
+  }, []);
 
   return (
     <div>
-      <HighchartsReact highcharts={Highcharts} options={optionsBubbleB} />
+      {dataState && (
+        <HighchartsReact highcharts={Highcharts} options={optionsBubbleB} />
+      )}
     </div>
   );
 };

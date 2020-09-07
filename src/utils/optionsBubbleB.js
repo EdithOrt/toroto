@@ -7,6 +7,26 @@
   return result;
 }; */
 
+function getData() {
+  const database = fetch(
+    "https://raw.githubusercontent.com/EdithOrt/test-project/master/db.json"
+  );
+  const data = database.then((res) => res.json());
+  let valor = data.then((res) => {
+    return res;
+  });
+  valor.then((resp) => {
+    if (resp != null) {
+      resp.map((uno) => {
+        optionBubbleB.series.push(uno);
+        console.log(uno);
+      });
+      console.log(resp);
+    }
+  });
+}
+getData();
+
 const optionBubbleB = {
   chart: {
     type: "packedbubble",
@@ -48,7 +68,7 @@ const optionBubbleB = {
       },
     },
   },
-  series: null,
+  series: [],
   /* series: [
     {
       name: "Sistemas",
@@ -457,16 +477,16 @@ const optionBubbleB = {
   ], */
 };
 
-const getData = () => {
+/* const getData = () => {
   const database = fetch(
     "https://raw.githubusercontent.com/EdithOrt/test-project/master/db.json"
   );
-  /* console.log(database); */
+  console.log(database);
   const data = database.then((res) => res.json());
   data.then((res) => console.log(res));
 };
 
 console.log(getData());
 
-console.log(optionBubbleB);
+console.log(optionBubbleB); */
 export default optionBubbleB;
