@@ -1,6 +1,7 @@
 [
   {
     "name": "Sistemas",
+    "color": "#1930DB",
     "data": [
       {
         "name": "Diana Rosas",
@@ -23,8 +24,8 @@
         "value": 16
       },
       {
-        "name": "Alan Ju·rez",
-        "value": 10
+        "name": "Alan Juárez",
+        "value": 50
       },
       {
         "name": "Elizabeth Esquivel",
@@ -36,7 +37,7 @@
       },
       {
         "name": "Axel Rojas",
-        "value": 11
+        "value": 30.7
       },
       {
         "name": "Gustavo Salazar",
@@ -46,6 +47,7 @@
   },
   {
     "name": "Ventas",
+    "color": "#BA1863",
     "data": [
       {
         "name": "Dante Gonz·lez",
@@ -80,11 +82,11 @@
         "value": 14
       },
       {
-        "name": "Rosaura LÛpez",
+        "name": "Rosaura López",
         "value": 5.8
       },
       {
-        "name": "Diana Hern·ndez",
+        "name": "Diana Hernández",
         "value": 12.7
       },
       {
@@ -131,9 +133,10 @@
   },
   {
     "name": "Operaciones",
+    "color": "#0ED956",
     "data": [
       {
-        "name": "Brenda Alejo",
+        "name": "Alejo Carpenter",
         "value": 20
       },
       {
@@ -176,6 +179,7 @@
   },
   {
     "name": "Producción",
+    "color": "#FFBC15",
     "data": [
       {
         "name": "Jorge Pérez",
@@ -183,7 +187,7 @@
       },
       {
         "name": "Susana Distancia",
-        "value": 2.7
+        "value": 40.7
       },
       {
         "name": "Ximena Celis",
@@ -195,7 +199,7 @@
       },
       {
         "name": "Leonora Carrington",
-        "value": 13.3
+        "value": 34.5
       },
       {
         "name": "Jorge Ramos",
@@ -221,6 +225,7 @@
   },
   {
     "name": "Marketing",
+    "color": "#FF5626",
     "data": [
       {
         "name": "Arcelia Ramírez",
@@ -232,11 +237,11 @@
       },
       {
         "name": "Demian Hirst",
-        "value": 20.3
+        "value": 70.9
       },
       {
         "name": "Gustavo Sainz",
-        "value": 3.3
+        "value": 29
       },
       {
         "name": "Salomón Díaz",
@@ -286,6 +291,7 @@
   },
   {
     "name": "Recursos Humanos",
+    "color": "#0BADE0",
     "data": [
       {
         "name": "Nubal Noah Harari",
@@ -293,7 +299,7 @@
       },
       {
         "name": "Egon Schiele",
-        "value": 10.3
+        "value": 44.8
       },
       {
         "name": "Mario Vargas Losa",
@@ -317,7 +323,7 @@
       },
       {
         "name": "Albert Camus",
-        "value": 8.5
+        "value": 26
       },
       {
         "name": "Oracio Quiroga",
@@ -358,7 +364,7 @@
 
       {
         "name": "José Saramago",
-        "value": 17.9
+        "value": 62
       },
       {
         "name": "Mario Molina",
@@ -374,15 +380,15 @@
       },
       {
         "name": "Cecilia Mendoza",
-        "value": 4
+        "value": 19
       },
       {
         "name": "Denisse Dresser",
-        "value": 4.5
+        "value": 14
       },
       {
         "name": "Carmen Aristegui",
-        "value": 4.5
+        "value": 10
       },
       {
         "name": "Sergio Aguayo",

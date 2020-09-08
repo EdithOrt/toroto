@@ -3,7 +3,6 @@ import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 import optionsBubbleB from "../../utils/optionsBubbleB";
 import more from "highcharts/highcharts-more";
-
 more(Highcharts);
 
 const GraphicBubbleB = () => {
@@ -51,6 +50,7 @@ value:res.footPrint.foot}]
       if (resp != null) {
         setDataState(resp);
         resp.map((uno) => {
+          optionsBubbleB.series.push(uno);
           console.log(uno);
         });
         console.log(resp);

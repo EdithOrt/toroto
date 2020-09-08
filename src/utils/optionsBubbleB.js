@@ -31,18 +31,22 @@ const optionBubbleB = {
   chart: {
     type: "packedbubble",
     height: "100%",
+    style: {
+      color: "#000",
+      font: 'bold 16px "Oswald", sans-serif',
+    },
   },
   title: {
-    text: "Carbon emissions around the world (2014)",
+    text: "Huella de Carbono por área de Laboratoria",
   },
   tooltip: {
     useHTML: true,
-    pointFormat: "<b>{point.name}:</b> {point.value}m CO<sub>2</sub>",
+    pointFormat: "<b>{point.name}:</b> {point.value}toneladas CO<sub>2</sub>",
   },
   plotOptions: {
     packedbubble: {
-      minSize: "0.01%",
-      maxSize: "500%",
+      minSize: "10%",
+      maxSize: "300%",
       zMin: 0,
       zMax: 1000,
       layoutAlgorithm: {
@@ -58,12 +62,12 @@ const optionBubbleB = {
         filter: {
           property: "y",
           operator: ">",
-          value: 10,
+          value: 15,
         },
         style: {
           color: "black",
           textOutline: "none",
-          fontWeight: "normal",
+          fontWeight: "bold",
         },
       },
     },
