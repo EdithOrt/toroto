@@ -1,0 +1,411 @@
+[
+  {
+    "name": "Sistemas",
+    "color": "#1930DB",
+    "data": [
+      {
+        "name": "Diana Rosas",
+        "value": 18.21
+      },
+      {
+        "name": "Olimpia Coria",
+        "value": 13
+      },
+      {
+        "name": "JoaquÌn RodrÌguez",
+        "value": 15
+      },
+      {
+        "name": "Juana Chavez",
+        "value": 11
+      },
+      {
+        "name": "Andrea Morales",
+        "value": 16
+      },
+      {
+        "name": "Alan Juárez",
+        "value": 50
+      },
+      {
+        "name": "Elizabeth Esquivel",
+        "value": 14
+      },
+      {
+        "name": "Rita Luna",
+        "value": 9
+      },
+      {
+        "name": "Axel Rojas",
+        "value": 30.7
+      },
+      {
+        "name": "Gustavo Salazar",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "name": "Ventas",
+    "color": "#BA1863",
+    "data": [
+      {
+        "name": "Dante Gonz·lez",
+        "value": 14
+      },
+      {
+        "name": "Karla Rea",
+        "value": 9
+      },
+      {
+        "name": "Paola Torres",
+        "value": 18
+      },
+      {
+        "name": "Iris GutiÈrrez",
+        "value": 9.6
+      },
+      {
+        "name": "Rembrant PiÒa",
+        "value": 8.9
+      },
+      {
+        "name": "Sarahi Tapia",
+        "value": 15.8
+      },
+      {
+        "name": "Ruth CortÈs",
+        "value": 17.2
+      },
+      {
+        "name": "Hermenegildo Frias",
+        "value": 14
+      },
+      {
+        "name": "Rosaura López",
+        "value": 5.8
+      },
+      {
+        "name": "Diana Hernández",
+        "value": 12.7
+      },
+      {
+        "name": "JosÈ Duarte",
+        "value": 15.4
+      },
+      {
+        "name": "Manuel Obrador",
+        "value": 2.2
+      },
+      {
+        "name": "Enrique de la PeÒa",
+        "value": 15.8
+      },
+      {
+        "name": "Fernanda Plata",
+        "value": 19.4
+      },
+      {
+        "name": "Roberto DomÌguez",
+        "value": 4.2
+      },
+      {
+        "name": "Aldair Cano",
+        "value": 16.5
+      },
+      {
+        "name": "Noe Gallagher",
+        "value": 4.8
+      },
+      {
+        "name": "Jatziri Cuevas",
+        "value": 16.1
+      },
+      {
+        "name": "Bruno DÌaz",
+        "value": 3.9
+      },
+      {
+        "name": "Marlene NuÒez",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "name": "Operaciones",
+    "color": "#0ED956",
+    "data": [
+      {
+        "name": "Alejo Carpenter",
+        "value": 20
+      },
+      {
+        "name": "Marta Uribe",
+        "value": 17.3
+      },
+      {
+        "name": "Carla Morales",
+        "value": 15
+      },
+      {
+        "name": "AnahÌ Acevedo",
+        "value": 8.5
+      },
+      {
+        "name": "Luis Fern·ndez",
+        "value": 6.7
+      },
+      {
+        "name": "Tom·s Carranza",
+        "value": 18.5
+      },
+      {
+        "name": "Daniela PerÈz",
+        "value": 5
+      },
+      {
+        "name": "Ulises Tapia",
+        "value": 3
+      },
+      {
+        "name": "Genaro Urban",
+        "value": 16.6
+      },
+      {
+        "name": "Manuel Torres",
+        "value": 11.2
+      }
+    ]
+  },
+  {
+    "name": "Producción",
+    "color": "#FFBC15",
+    "data": [
+      {
+        "name": "Jorge Pérez",
+        "value": 7.1
+      },
+      {
+        "name": "Susana Distancia",
+        "value": 40.7
+      },
+      {
+        "name": "Ximena Celis",
+        "value": 3.3
+      },
+      {
+        "name": "Victor Toledo",
+        "value": 4.2
+      },
+      {
+        "name": "Leonora Carrington",
+        "value": 34.5
+      },
+      {
+        "name": "Jorge Ramos",
+        "value": 11.1
+      },
+      {
+        "name": "Ingrid Terrón",
+        "value": 9
+      },
+      {
+        "name": "Leoncia Mares",
+        "value": 6.7
+      },
+      {
+        "name": "Ramiro González",
+        "value": 17.8
+      },
+      {
+        "name": "Iris Trejo",
+        "value": 6.3
+      }
+    ]
+  },
+  {
+    "name": "Marketing",
+    "color": "#FF5626",
+    "data": [
+      {
+        "name": "Arcelia Ramírez",
+        "value": 7.1
+      },
+      {
+        "name": "Sabina Berman",
+        "value": 8.3
+      },
+      {
+        "name": "Demian Hirst",
+        "value": 70.9
+      },
+      {
+        "name": "Gustavo Sainz",
+        "value": 29
+      },
+      {
+        "name": "Salomón Díaz",
+        "value": 13.4
+      },
+      {
+        "name": "Laura Restrepo",
+        "value": 5.3
+      },
+      {
+        "name": "Julio Cortázar",
+        "value": 7.7
+      },
+      {
+        "name": "Isabel Allende",
+        "value": 8.9
+      },
+      {
+        "name": "Gabriel García Márquez",
+        "value": 10.9
+      },
+      {
+        "name": "Guadalupe Nettel",
+        "value": 6.7
+      },
+      {
+        "name": "Roberto Juarróz",
+        "value": 8.8
+      },
+      {
+        "name": "Daniela Alejo",
+        "value": 4
+      },
+      {
+        "name": "JoaquÌn Larios",
+        "value": 8.4
+      },
+      {
+        "name": "Ivonne Kuri",
+        "value": 6.8
+      },
+      {
+        "name": "Marisol Fuentes",
+        "value": 9.5
+      }
+    ]
+  },
+  {
+    "name": "Recursos Humanos",
+    "color": "#0BADE0",
+    "data": [
+      {
+        "name": "Nubal Noah Harari",
+        "value": 2.2
+      },
+      {
+        "name": "Egon Schiele",
+        "value": 44.8
+      },
+      {
+        "name": "Mario Vargas Losa",
+        "value": 4.3
+      },
+      {
+        "name": "Jared Diamond",
+        "value": 4.5
+      },
+      {
+        "name": "Josefa Gonzalez Blanco",
+        "value": 10.7
+      },
+      {
+        "name": "Gorge Orwell",
+        "value": 5.8
+      },
+      {
+        "name": "Octavio Paz",
+        "value": 17.5
+      },
+      {
+        "name": "Albert Camus",
+        "value": 26
+      },
+      {
+        "name": "Oracio Quiroga",
+        "value": 8.5
+      },
+      {
+        "name": "Oscar Wilde",
+        "value": 9.9
+      },
+      {
+        "name": "Simone de Beauvoir",
+        "value": 2.5
+      },
+      {
+        "name": "Angelica Ramos",
+        "value": 20.3
+      },
+      {
+        "name": "Jean Paul Sartre",
+        "value": 13.4
+      },
+      {
+        "name": "HUmberto Eco",
+        "value": 18.9
+      },
+      {
+        "name": "Julia Carabias",
+        "value": 7.1
+      },
+      {
+        "name": "josé Sarukhán",
+        "value": 1.1
+      },
+      {
+        "name": "Antonio Lazcano",
+        "value": 8.9
+      },
+
+      {
+        "name": "José Saramago",
+        "value": 62
+      },
+      {
+        "name": "Mario Molina",
+        "value": 12.3
+      },
+      {
+        "name": "Miguel Angel de Quevedo",
+        "value": 9.8
+      },
+      {
+        "name": "Patricia Morales",
+        "value": 7.9
+      },
+      {
+        "name": "Cecilia Mendoza",
+        "value": 19
+      },
+      {
+        "name": "Denisse Dresser",
+        "value": 14
+      },
+      {
+        "name": "Carmen Aristegui",
+        "value": 10
+      },
+      {
+        "name": "Sergio Aguayo",
+        "value": 7.3
+      },
+      {
+        "name": "Lorenzo Meyer",
+        "value": 12.3
+      },
+      {
+        "name": "Javier Solórzano",
+        "value": 11.3
+      },
+      {
+        "name": "Maria Luisa Albores",
+        "value": 3.2
+      }
+    ]
+  }
+]
