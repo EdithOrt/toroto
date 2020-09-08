@@ -1,3 +1,39 @@
+let urlJSON = "https://raw.githubusercontent.com/EdithOrt/dbs/master/db.json"
+
+// const getData = async (url) =>{
+//     try {
+//         const response = await fetch(url)
+//         const data = await response.json()
+//         await data.footPrint.map((item) =>{
+//             console.log(item.data)
+//             config.categories.push(item.data)
+//         })
+//     }
+//     catch(error) {
+//         console.log(error)
+//     }
+// }
+
+function getData(url) {
+    const database = fetch(url);
+    const data = database.then((res) => res.json());
+    let value = data.then((res) => {
+      return res;
+    });
+    value.then((resp) => {
+      if (resp != null) {
+        resp.footPrint.map((item) => {
+            config.xAxis.categories.push(item.categories)
+            config.series[0].data.push(parseInt(item.data))
+            console.log(item.data)
+        });
+      }
+    });
+  }
+
+getData(urlJSON);
+
+
 const config = {
     chart: {
         type: 'areaspline'
@@ -6,40 +42,14 @@ const config = {
         text: 'Huella de carbono de empresa Laboratoria'
     },
     legend: {
-        layout: 'vertical',
-        align: 'left',
-        verticalAlign: 'top',
-        x: 350,
-        y: 100,
-        floating: true,
-        borderWidth: 1,
-        backgroundColor:
-        "Highcharts.defaultOptions.legend.backgroundColor" || '#FFFFFF'
+        enabled: false
     },
     xAxis: {
-        categories: [
-            'Enero',
-            'Febrero',
-            'Marzo',
-            'Abril',
-            'Mayo',
-            'Junio',
-            'Julio',
-            'Agosto',
-            'Septiembre',
-            'Octubre',
-            'Noviembre',
-            'Diciembre'
-        ],
-        plotBands: [{ // visualize the weekend
-            from: 0,
-            to: 0,
-            color: 'rgba(68, 170, 213, .2)'
-        }]
+        categories: []
     },
     yAxis: {
         title: {
-            text: 'Toneladas de carbono'
+            text: 'Toneladas de carbono',
         }
     },
     tooltip: {
@@ -56,8 +66,24 @@ const config = {
     },
     series: [{
         name: 'Laboratoria',
-        data: [300, 289.54, 272.20, 290.40, 250.55, 245.8, 220.10, 170.80, 199.72, 235.71, 145.23, 212.30]
-    }]
+        data: [],
+        color: '#1930DB'
+    }],
+    responsive: {
+        rules: [{
+            condition: {
+                maxWidth: 300,
+                minWidth: 300
+            },
+            chartOptions: {
+                chart: {
+                    className: 'small-chart'
+                }
+            }
+        }]
+    }
 }
+
+console.log(config);
 
 export default config

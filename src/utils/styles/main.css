@@ -107,6 +107,10 @@
   border-radius: 3px;
 }
 
+.highcharts-title, .highcharts-subtitle, .highcharts-yaxis .highcharts-axis-title {
+  color: white;
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
