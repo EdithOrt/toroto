@@ -1,0 +1,152 @@
+.login-container {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login-container form div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-container form div p {
+  font-size: 18px;
+  font-family: Oswald-Ligth;
+}
+
+.login-container div input {
+  margin-left: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 160px;
+  height: 40px;
+  background: none;
+  border: none;
+  color: white;
+  font-family: Oswald-Regular;
+  font-size: 18px;
+}
+
+.login-container div img {
+  margin-top: 80px;
+  width: 186px;
+}
+
+.container-inputs {
+  margin-top: 40px;
+}
+
+.welcome-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  font-size: 24px;
+}
+
+.container-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-button-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+.button-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #1930DB;
+  width: 138px;
+  height: 38px;
+  border-radius: 3px;
+}
+
+.highcharts-title, .highcharts-subtitle, .highcharts-yaxis .highcharts-axis-title {
+  color: white;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Oswald-Regular;
+  background-color: #AB0954;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@font-face {
+  font-family: Oswald-Regular;
+  src: url("../../assets/fonts/Oswald-Regular.ttf");
+}
+
+@font-face {
+  font-family: Oswald-Ligth;
+  src: url("../../assets/fonts/Oswald-Light.ttf");
+}
+
+@font-face {
+  font-family: Oswald-SemiBold;
+  src: url("../../assets/fonts/Oswald-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Oswald-Bold;
+  src: url("../../assets/fonts/Oswald-Bold.ttf");
+}
+
+@font-face {
+  font-family: Knockout-HTF49-Liteweight;
+  src: url("../../assets/fonts/Knockout-HTF49-Liteweight.ttf");
+}
+/*# sourceMappingURL=main.css.map */

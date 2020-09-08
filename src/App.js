@@ -1,17 +1,27 @@
 import React from "react";
-import FirebaseData from "./components/FirebaseData/FirebaseData";
-import GraphicBubble from "./components/GraphicBubble/GraphicBubble";
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import GraphicAreaspline from "./components/GraphicAreaspline/GraphicAreaspline"
+import LogIn from "./components/LogIn/LogIn";
 import GraphicBubbleB from "./components/GraphicBubbleB/GraphicBubbleB";
 import GraphicBubbleIndividual from "./components/GraphicBubbleIndividual/GraphicBubbleIndividual";
 
 function App() {
+
+
   return (
     <div>
-      Toroto
-      <FirebaseData />
-      {/* <GraphicBubble /> */}
-      <GraphicBubbleB />
-      <GraphicBubbleIndividual />
+      <Router>
+        <Switch>
+          <Route path="/mi-huella">
+            <GraphicBubbleIndividual />
+            <GraphicBubbleB />
+            <GraphicAreaspline />
+          </Route>
+          <Route path="/">
+            <LogIn />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
