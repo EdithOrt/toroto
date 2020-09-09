@@ -10,22 +10,22 @@ const Footer = () => {
     <div className='footer-container'>
       <div>
         <p className='footer-title'>
-          <strong>UN FUTURO</strong> PARA TODOS
+          <strong>Un futiro</strong> para todos
         </p>
       </div>
       <div className='social-container'>
         <div>
           <img src={logo} alt='' />
-          <p>2020 Todos los derechos reservados ©</p>
+          <p className='copyright'>2020 Todos los derechos reservados ©</p>
         </div>
         <div className='img-social'>
-          <div>
+          <div className='icons-container'>
             <img className='img-social-icons' src={instagram} alt='' />
           </div>
-          <div>
+          <div className='icons-container'>
             <img className='img-social-icons' src={linkedin} alt='' />
           </div>
-          <div>
+          <div className='icons-container'>
             <img className='img-social-icons' src={twitter} alt='' />
           </div>
           <div>
