@@ -1,5 +1,6 @@
 .login-container {
   color: white;
+  background-color: #AB0954;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -113,16 +114,6 @@
 
 body {
   margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: Oswald-Regular;
-  background-color: #AB0954;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 @font-face {
