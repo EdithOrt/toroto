@@ -5,7 +5,8 @@ import LogIn from "./components/LogIn/LogIn";
 import GraphicBubbleB from "./components/GraphicBubbleB/GraphicBubbleB";
 import GraphicBubbleIndividual from "./components/GraphicBubbleIndividual/GraphicBubbleIndividual";
 import MyFootprint from "./components/MyFootprint/MyFootprint";
-import Navbar2 from "./components/Navbar2";
+import Company from "./components/Company/Company";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
           <Route path='/mi-huella'>
             <MyFootprint />
             <GraphicBubbleIndividual />
+            {/* <Company /> */}
+            <Footer />
             <GraphicBubbleB />
             <GraphicAreaspline />
           </Route>
