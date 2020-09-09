@@ -59,28 +59,28 @@ const optionBubbleIndividual = {
   series: [
     {
       name: "Julio",
-      color: "#BA1863",
+      color: "#1930DB",
       data: [
         {
-          name: "01 de julio de 2020",
+          name: "01 jul 2020",
           value: 30.3,
         },
         {
-          name: "15 de julio de 2020",
+          name: "15 jul 2020",
           value: 20.3,
         },
       ],
     },
     {
       name: "Agosto",
-      color: "#0ED956",
+      color: "#1930DB",
       data: [
         {
-          name: "01 de agosto de 2020",
+          name: "01 ago 2020",
           value: 15.3,
         },
         {
-          name: "15 de agosto de 2020",
+          name: "15 ago 2020",
           value: 10,
         },
       ],
@@ -90,25 +90,25 @@ const optionBubbleIndividual = {
       color: "#1930DB",
       data: [
         {
-          name: "01 de septiembre de 2020",
+          name: "01 sept 2020",
           value: 9.4,
         },
         {
-          name: "15 de septiembe de 2020",
+          name: "15 sept 2020",
           value: 8,
         },
       ],
     },
     {
       name: "Octubre",
-      color: "#FFBC15",
+      color: "#1930DB",
       data: [
         {
-          name: "01 de octubre de 2020",
+          name: "01 oct 2020",
           value: 8,
         },
         {
-          name: "15 de octubre de 2020",
+          name: "15 oct 2020",
           value: 5,
         },
       ],

@@ -3,17 +3,18 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import GraphicAreaspline from "./components/GraphicAreaspline/GraphicAreaspline"
 import LogIn from "./components/LogIn/LogIn";
 import GraphicBubbleB from "./components/GraphicBubbleB/GraphicBubbleB";
-import GraphicBubbleIndividual from "./components/GraphicBubbleIndividual/GraphicBubbleIndividual";
+import MyFootPrint2 from "./components/MyFootPrint2/MyFootPrint2";
+import MyActions from "./components/MyActions/MyActions";
 
 function App() {
 
 
   return (
-    <div>
       <Router>
         <Switch>
           <Route path="/mi-huella">
-            <GraphicBubbleIndividual />
+            <MyFootPrint2 />
+            <MyActions />
             <GraphicBubbleB />
             <GraphicAreaspline />
           </Route>
@@ -22,7 +23,6 @@ function App() {
           </Route>
         </Switch>
       </Router>
-    </div>
   );
 }
 
