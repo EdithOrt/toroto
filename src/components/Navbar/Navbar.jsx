@@ -4,12 +4,18 @@ import menuIcon from "../../assets/img/my-footprint/icon_burguer.png";
 
 const Navbar = () => {
   return (
-    <div className='navbar-container'>
-      <div className='menuIcon-container'>
-        <img src={menuIcon} alt='' />
+    <div className="nav-blue">
+      <div className="container-hamb-log">
+        <div className='menuicon-container'>
+          <button>
+            <img src={menuIcon} alt='' />
+          </button>
+        </div>
+        <div className='logo-container'>
+          <img src={logo} alt='' />
+        </div>
       </div>
-      <div className='logo-container'>
-        <img src={logo} alt='' />
+      <div className="container-es-en">
         <p>EN/ES</p>
       </div>
     </div>
