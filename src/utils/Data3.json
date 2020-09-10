@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Laboratoria",
+    "footPrint": [
+      {
+        "categories": "Enero",
+        "data": "19"
+      },
+      {
+        "categories": "Febrero",
+        "data": "24"
+      },
+      {
+        "categories": "Marzo",
+        "data": "18"
+      },
+      {
+        "categories": "Abril",
+        "data": "15"
+      },
+      {
+        "categories": "Mayo",
+        "data": "17"
+      },
+      {
+        "categories": "Junio",
+        "data": "27"
+      },
+      {
+        "categories": "Julio",
+        "data": "25"
+      },
+      {
+        "categories": "Agosto",
+        "data": "15"
+      },
+      {
+        "categories": "Septiembre",
+        "data": "5"
+      }
+    ]
+  },
+  {
+    "name": "Employee",
+    "footPrint": [
+      {
+        "categories": "Enero",
+        "data": "53"
+      },
+      {
+        "categories": "Febrero",
+        "data": "51"
+      },
+      {
+        "categories": "Marzo",
+        "data": "52"
+      },
+      {
+        "categories": "Abril",
+        "data": "48"
+      },
+      {
+        "categories": "Mayo",
+        "data": "35"
+      },
+      {
+        "categories": "Junio",
+        "data": "37"
+      },
+      {
+        "categories": "Julio",
+        "data": "31"
+      },
+      {
+        "categories": "Agosto",
+        "data": "23"
+      },
+      {
+        "categories": "Septiembre",
+        "data": "15"
+      }
+    ]
+  }
+]
