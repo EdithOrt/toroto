@@ -12,15 +12,12 @@ function App() {
   return (
     <div>
       <Router>
-        {/* <Navbar2 /> */}
         <Switch>
           <Route path='/mi-huella'>
-            <MyFootprint />
-            <GraphicBubbleIndividual />
-            {/* <Company /> */}
+            {/* <MyFootprint /> */}
+            {/*  <GraphicBubbleIndividual /> */}
+            <Company />
             <Footer />
-            <GraphicBubbleB />
-            <GraphicAreaspline />
           </Route>
           <Route path='/'>
             <LogIn />

@@ -1,4 +1,4 @@
-let urlJSON = "https://raw.githubusercontent.com/EdithOrt/dbs/master/db.json"
+let urlJSON = "https://raw.githubusercontent.com/EdithOrt/dbs/master/db.json";
 
 // const getData = async (url) =>{
 //     try {
@@ -15,75 +15,78 @@ let urlJSON = "https://raw.githubusercontent.com/EdithOrt/dbs/master/db.json"
 // }
 
 function getData(url) {
-    const database = fetch(url);
-    const data = database.then((res) => res.json());
-    let value = data.then((res) => {
-      return res;
-    });
-    value.then((resp) => {
-      if (resp != null) {
-        resp.footPrint.map((item) => {
-            config.xAxis.categories.push(item.categories)
-            config.series[0].data.push(parseInt(item.data))
-            console.log(item.data)
-        });
-      }
-    });
-  }
+  const database = fetch(url);
+  const data = database.then((res) => res.json());
+  let value = data.then((res) => {
+    return res;
+  });
+  value.then((resp) => {
+    if (resp != null) {
+      resp.footPrint.map((item) => {
+        config.xAxis.categories.push(item.categories);
+        config.series[0].data.push(parseInt(item.data));
+        console.log(item.data);
+      });
+    }
+  });
+}
 
 getData(urlJSON);
 
-
 const config = {
-    chart: {
-        type: 'areaspline'
-    },
+  chart: {
+    type: "areaspline",
+  },
+  title: {
+    text: undefined,
+  },
+  legend: {
+    enabled: true,
+  },
+  xAxis: {
+    categories: [],
+  },
+  yAxis: {
     title: {
-        text: 'Huella de carbono de empresa Laboratoria'
+      text: "Toneladas de carbono",
     },
-    legend: {
-        enabled: false
+  },
+  tooltip: {
+    shared: true,
+    valueSuffix: " toneladas",
+  },
+  credits: {
+    enabled: false,
+  },
+  plotOptions: {
+    areaspline: {
+      fillOpacity: 0.5,
     },
-    xAxis: {
-        categories: []
+  },
+  series: [
+    {
+      name: "Metas de la empresa",
+      data: [],
+      color: "#AB0954",
     },
-    yAxis: {
-        title: {
-            text: 'Toneladas de carbono',
-        }
-    },
-    tooltip: {
-        shared: true,
-        valueSuffix: ' toneladas'
-    },
-    credits: {
-        enabled: false
-    },
-    plotOptions: {
-        areaspline: {
-            fillOpacity: 0.5
-        }
-    },
-    series: [{
-        name: 'Laboratoria',
-        data: [],
-        color: '#1930DB'
-    }],
-    responsive: {
-        rules: [{
-            condition: {
-                maxWidth: 300,
-                minWidth: 300
-            },
-            chartOptions: {
-                chart: {
-                    className: 'small-chart'
-                }
-            }
-        }]
-    }
-}
+  ],
+  responsive: {
+    rules: [
+      {
+        condition: {
+          maxWidth: 300,
+          minWidth: 300,
+        },
+        chartOptions: {
+          chart: {
+            className: "small-chart",
+          },
+        },
+      },
+    ],
+  },
+};
 
 console.log(config);
 
-export default config
+export default config;

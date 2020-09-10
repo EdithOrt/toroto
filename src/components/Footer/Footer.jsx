@@ -10,7 +10,7 @@ const Footer = () => {
     <div className='footer-container'>
       <div>
         <p className='footer-title'>
-          <strong>Un futiro</strong> para todos
+          <strong>Un futuro</strong> para todos
         </p>
       </div>
       <div className='social-container'>
