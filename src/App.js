@@ -7,6 +7,8 @@ import MyFootprint from "./components/MyFootprint/MyFootprint";
 import Navbar from "./components/Navbar/Navbar";
 import MyFootPrint2 from "./components/MyFootPrint2/MyFootPrint2";
 import MyActions from "./components/MyActions/MyActions";
+import Company from "./components/Company/Company";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -17,8 +19,8 @@ function App() {
             <MyFootprint />
             <MyFootPrint2 />
             <MyActions />
-            <GraphicBubbleB />
-            <GraphicAreaspline />
+            <Company />
+            <Footer />
           </Route>
           <Route path='/'>
             <LogIn />
