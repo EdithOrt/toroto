@@ -2,7 +2,7 @@ import React from "react";
 import squads from "../../assets/img/my-footprint/Squads.png";
 import logros from "../../assets/img/my-footprint/Logros.png";
 import {Slider} from "@material-ui/core"
-import cincotoneladas from "../../assets/img/my-footprint/5toneladas.png"
+import cincotoneladas from "../../assets/img/my-footprint/arbol.png"
 
 
 const MyFootprint = () => {
@@ -27,7 +27,9 @@ const MyFootprint = () => {
       </div>
       <div className="circle-and-slider">
         <div className="content-circle">
-          <img src={cincotoneladas}/>
+          <div className="circle"></div>
+          <img className="arbol" src={cincotoneladas}/>
+          <p>5t de C02</p>
         </div>
         <div className="slider-container">
           <div>

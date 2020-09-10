@@ -135,6 +135,7 @@
 }
 
 .slider-container {
+  margin-top: 220px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -155,6 +156,24 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 20px;
+}
+
+.content-circle .circle {
+  width: 194px;
+  height: 194px;
+  border-radius: 50%;
+  background-color: rgba(25, 48, 219, 0.5);
+  border: 4px solid #1930DB;
+  position: absolute;
+  z-index: 1;
+}
+
+.content-circle .arbol {
+  margin-top: 30px;
+  position: absolute;
+  z-index: 2;
+  width: 70px;
+  height: 70px;
 }
 
 .container-button-co2 {
@@ -261,13 +280,13 @@
 }
 
 .container-section-myfootprint2 {
-  margin-top: 115px;
+  margin-top: 110px;
 }
 
 .blue-bar {
   background-color: #1930DB;
   height: 120px;
-  margin-top: -120px;
+  margin-top: -125px;
 }
 
 .mobile-transition {
@@ -354,6 +373,14 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.content-circle p {
+  font-size: 24px;
+  color: white;
+  position: absolute;
+  z-index: 2;
+  margin-top: 120px;
 }
 
 .container-myactions {
