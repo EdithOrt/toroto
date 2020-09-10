@@ -5,6 +5,11 @@ import share from '../../assets/img/my-Footprint2/share_48px.png'
 import {Slider} from '@material-ui/core'
 
 const MyActions = () => {
+
+        const valuetext = (value) => {
+          return `${value}`;
+        };
+
     return(
         <div className="container-section-myfootprint2">
             <div className="blue-bar">
@@ -23,7 +28,16 @@ const MyActions = () => {
                 <GraphicBubbleIndividual />
                 <div>
                 <div className="slider">
-                    <Slider />
+                    <Slider
+                        defaultValue={9}
+                        getAriaValueText={valuetext}
+                        aria-labelledby='discrete-slider-small-steps'
+                        step={1}
+                        marks
+                        min={1}
+                        max={12}
+                        valueLabelDisplay='auto'
+                    />
                 </div>
                 </div>
                 <div className="year-text">

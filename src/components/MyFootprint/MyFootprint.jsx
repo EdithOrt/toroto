@@ -28,7 +28,7 @@ const MyFootprint = () => {
         <div className='slider-container'>
           <div>
             <Slider
-              defaultValue={5}
+              defaultValue={9}
               getAriaValueText={valuetext}
               aria-labelledby='discrete-slider-small-steps'
               step={1}
