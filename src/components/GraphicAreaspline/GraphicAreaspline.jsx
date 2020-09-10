@@ -1,12 +1,10 @@
-import React, {useEffect, useState} from 'react'
+import React, { useEffect, useState } from "react";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
-import config from "../../utils/chart-bar-areaspline"
-
+import config from "../../utils/chart-bar-areaspline";
 
 const GraphicAreaspline = () => {
-
-    let urlJSON = "https://raw.githubusercontent.com/EdithOrt/dbs/master/db.json"
+  /* let urlJSON = "https://raw.githubusercontent.com/EdithOrt/dbs/master/db.json"
 
     let [data, setData] = useState()
 
@@ -25,15 +23,13 @@ const GraphicAreaspline = () => {
 
     useEffect(() => {
         getData(urlJSON)
-    }, [])
+    }, []) */
 
-    return (
+  return (
     <div>
-        {data && (
-        <HighchartsReact highcharts={Highcharts} options={config} />
-        )}
+      <HighchartsReact highcharts={Highcharts} options={config} />
     </div>
-    )
-}
+  );
+};
 
-export default GraphicAreaspline
+export default GraphicAreaspline;

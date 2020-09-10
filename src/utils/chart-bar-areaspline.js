@@ -14,7 +14,7 @@ let urlJSON = "https://raw.githubusercontent.com/EdithOrt/dbs/master/db.json";
 //     }
 // }
 
-function getData(url) {
+/* function getData(url) {
   const database = fetch(url);
   const data = database.then((res) => res.json());
   let value = data.then((res) => {
@@ -29,9 +29,9 @@ function getData(url) {
       });
     }
   });
-}
+} */
 
-getData(urlJSON);
+/* getData(urlJSON); */
 
 const config = {
   chart: {
@@ -44,7 +44,17 @@ const config = {
     enabled: true,
   },
   xAxis: {
-    categories: [],
+    categories: [
+      "Enero",
+      "Febrero",
+      "Marzo",
+      "Abril",
+      "Mayo",
+      "Junio",
+      "Julio",
+      "Agosto",
+      "Septiembre",
+    ],
   },
   yAxis: {
     title: {
@@ -63,13 +73,24 @@ const config = {
       fillOpacity: 0.5,
     },
   },
-  series: [
-    {
+  series:
+    /* {
       name: "Metas de la empresa",
       data: [],
       color: "#AB0954",
-    },
-  ],
+    }, */
+    [
+      {
+        name: "Huella de carbono de mis compañeros",
+        data: [53, 51, 52, 48, 35, 37, 31, 23, 15],
+        color: "#ffbc15",
+      },
+      {
+        name: "Metas de la empresa",
+        data: [19, 24, 18, 15, 17, 27, 25, 15, 5],
+        color: "#AB0954",
+      },
+    ],
   responsive: {
     rules: [
       {
