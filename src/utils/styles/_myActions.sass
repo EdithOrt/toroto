@@ -8,13 +8,16 @@
 .img-video
     width: 328px
 
-.transition-actions-img
-    display: none
-
 .container-arts
     display: flex
     overflow-y: scroll
     width: 293px
+
+.container-transition
+    background-color: $jazzberry-jam
+    height: 120px
+    img
+        width: 44px
 
 .img-art
     width: 120px
@@ -22,13 +25,18 @@
 .text-art
     width: 120px
     text-align: center
+    height: 200px
+
+.blue-letter
+    color: $persian-blue
 
 .container-text-video
-    margin-top: 150px
-    width: 328px
     display: flex
     justify-content: center
+    margin-top: 20px
     text-align: center
+    p
+        width: 320px
 
 .container-video-img
     margin-bottom: 37px
@@ -38,9 +46,13 @@
 .container-general-arts
     display: flex
     justify-content: center
+    margin-bottom: 30px
 
 .container-art-individual
     margin-right: 15px
+    button
+        background-color: transparent
+        border: none
 
 .button-share-actions
     background: transparent 
@@ -52,21 +64,22 @@
     display: flex
     justify-content: center
 
-@media ( max-width: 400px )
-    .transition-actions-img
-        width: 360px
-        display: block
-        position: absolute
-        z-index: 1
+.transition-actions-img
+    width: 360px
+    display: block
+    position: absolute
+    z-index: 1
 
-    .transition-actions-text
-        left: 85px
-        position: absolute
-        z-index: 2
-        font-size: 18px
-        p
-            color: white
-            width: 262px
+.transition-actions-text
+    margin-top: -10px
+    font-family: Oswald-Ligth
+    left: 85px
+    position: absolute
+    z-index: 2
+    font-size: 18px
+    p
+        color: white
+        width: 262px
 
-    .slider
-        width: 280px
+.slider
+    width: 280px

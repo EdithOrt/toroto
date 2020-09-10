@@ -1,4 +1,4 @@
-let urlJSON = "https://raw.githubusercontent.com/EdithOrt/dbs/master/db.json";
+let urlJSON = "https://raw.githubusercontent.com/EdithOrt/db/master/db.json";
 
 // const getData = async (url) =>{
 //     try {

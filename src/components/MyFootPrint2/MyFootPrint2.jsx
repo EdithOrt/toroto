@@ -1,14 +1,16 @@
 import React from 'react'
 import GraphicBubbleIndividual from '../GraphicBubbleIndividual/GraphicBubbleIndividual'
-import transition from '../../assets/img/my-Footprint2/transition01.png'
+import transition from '../../assets/img/my-Footprint2/textura.png'
 import share from '../../assets/img/my-Footprint2/share_48px.png'
 import {Slider} from '@material-ui/core'
 
 const MyActions = () => {
     return(
         <div className="container-section-myfootprint2">
-            <div>
-                <img className="mobile-transition" src={transition} />
+            <div className="blue-bar">
+                <div className="mobile-transition">
+                    <img src={transition} />
+                </div>
                 <div className="text-transition">
                     <p>Unidos neutralizaremos nuestra huella 
                     ambiental para revertir la emergencia climática</p>
