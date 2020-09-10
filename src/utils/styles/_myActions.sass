@@ -1,0 +1,72 @@
+@import _variables
+
+.container-myactions
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+.img-video
+    width: 328px
+
+.transition-actions-img
+    display: none
+
+.container-arts
+    display: flex
+    overflow-y: scroll
+    width: 293px
+
+.img-art
+    width: 120px
+
+.text-art
+    width: 120px
+    text-align: center
+
+.container-text-video
+    margin-top: 150px
+    width: 328px
+    display: flex
+    justify-content: center
+    text-align: center
+
+.container-video-img
+    margin-bottom: 37px
+    display: flex
+    justify-content: center
+
+.container-general-arts
+    display: flex
+    justify-content: center
+
+.container-art-individual
+    margin-right: 15px
+
+.button-share-actions
+    background: transparent 
+    border: none
+    img
+        width: 18px
+
+.container-share-button
+    display: flex
+    justify-content: center
+
+@media ( max-width: 400px )
+    .transition-actions-img
+        width: 360px
+        display: block
+        position: absolute
+        z-index: 1
+
+    .transition-actions-text
+        left: 85px
+        position: absolute
+        z-index: 2
+        font-size: 18px
+        p
+            color: white
+            width: 262px
+
+    .slider
+        width: 280px
