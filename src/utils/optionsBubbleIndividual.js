@@ -24,7 +24,7 @@ const optionBubbleIndividual = {
     height: "100%",
   },
   title: {
-    text: "Tu huella",
+    text: undefined,
   },
   tooltip: {
     useHTML: true,
@@ -59,28 +59,28 @@ const optionBubbleIndividual = {
   series: [
     {
       name: "Julio",
-      color: "#BA1863",
+      color: "#1930DB",
       data: [
         {
-          name: "01 de julio de 2020",
+          name: "01 jul",
           value: 30.3,
         },
         {
-          name: "15 de julio de 2020",
+          name: "15 jul",
           value: 20.3,
         },
       ],
     },
     {
       name: "Agosto",
-      color: "#0ED956",
+      color: "#1930DB",
       data: [
         {
-          name: "01 de agosto de 2020",
+          name: "01 ago",
           value: 15.3,
         },
         {
-          name: "15 de agosto de 2020",
+          name: "15 ago",
           value: 10,
         },
       ],
@@ -90,25 +90,25 @@ const optionBubbleIndividual = {
       color: "#1930DB",
       data: [
         {
-          name: "01 de septiembre de 2020",
+          name: "01 sept",
           value: 9.4,
         },
         {
-          name: "15 de septiembe de 2020",
+          name: "15 sept",
           value: 8,
         },
       ],
     },
     {
       name: "Octubre",
-      color: "#FFBC15",
+      color: "#1930DB",
       data: [
         {
-          name: "01 de octubre de 2020",
+          name: "01 oct",
           value: 8,
         },
         {
-          name: "15 de octubre de 2020",
+          name: "15 oct",
           value: 5,
         },
       ],

@@ -1,11 +1,6 @@
 import React from "react";
-import sky from "../../assets/img/my-footprint/montagnas.png";
-import bar from "../../assets/img/my-footprint/image_bar.png";
 import squads from "../../assets/img/my-footprint/Squads.png";
 import logros from "../../assets/img/my-footprint/Logros.png";
-import Navbar from "../Navbar/Navbar";
-import hamburguer from "../../assets/img/my-footprint/menu.png"
-import logo from "../../assets/img/logo.png"
 import {Slider} from "@material-ui/core"
 import cincotoneladas from "../../assets/img/my-footprint/5toneladas.png"
 
@@ -64,7 +59,9 @@ const MyFootprint = () => {
           </div>
         </div>
         <div className="container-button-co2">
-          <button> MEDIR CO2 </button>
+          <form action="https://www.toroto.mx/en/carbon-footprint-calculator" method='get'>
+            <button> MEDIR CO2 </button>
+          </form>
         </div>
       </div>
     </div>

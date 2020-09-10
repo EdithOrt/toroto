@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 import optionsBubbleIndividual from "../../utils/optionsBubbleIndividual";
@@ -34,12 +34,12 @@ const GraphicBubbleIndividual = () => {
   }, []); */
 
   return (
-    <div>
+    <Fragment>
       <HighchartsReact
         highcharts={Highcharts}
         options={optionsBubbleIndividual}
       />
-    </div>
+    </Fragment>
   );
 };
 
