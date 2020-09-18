@@ -33,7 +33,7 @@ const LogIn = () => {
           </Link>
         </div>
         <div className='container-logo'>
-          <img src={logo} />
+          <img alt='toroto' src={logo} />
         </div>
       </form>
     </div>

@@ -1,8 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import GraphicAreaspline from "./components/GraphicAreaspline/GraphicAreaspline";
 import LogIn from "./components/LogIn/LogIn";
-import GraphicBubbleB from "./components/GraphicBubbleB/GraphicBubbleB";
 import MyFootprint from "./components/MyFootprint/MyFootprint";
 import Navbar from "./components/Navbar/Navbar";
 import MyFootPrint2 from "./components/MyFootPrint2/MyFootPrint2";

@@ -18,10 +18,8 @@ function getData() {
   valor.then((resp) => {
     if (resp != null) {
       resp.map((uno) => {
-        optionBubbleB.series.push(uno);
-        console.log(uno);
+        return optionBubbleB.series.push(uno);
       });
-      console.log(resp);
     }
   });
 }

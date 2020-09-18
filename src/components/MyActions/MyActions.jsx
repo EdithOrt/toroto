@@ -11,7 +11,7 @@ const MyActions = () => {
     return(
         <div className="container-myactions">
             <div className="container-transition">
-                <img className="transition-actions-img" src={transition2} />
+                <img alt='trancisión2' className="transition-actions-img" src={transition2} />
                 <div className="transition-actions-text">
                     <p>Tu huella de carbono es la totalidad
                         de gases de invernadero que va a la 
@@ -27,7 +27,7 @@ const MyActions = () => {
                     </p>
                 </div>
                 <div className="container-video-img">
-                    <img className="img-video" src={video}/>
+                    <img alt='video' className="img-video" src={video}/>
                 </div>
             </div>
             <div className="container-general-arts">
@@ -35,7 +35,7 @@ const MyActions = () => {
                     <div className="container-art-individual">
                         <form action="https://www.toroto.mx/es/blog/como-hacer-que-tu-empresa-sea-carbono-neutra" method="get">
                             <button>
-                                <img className="img-art" src={art1}/>
+                                <img alt='articulo1' className="img-art" src={art1}/>
                             </button>
                         </form>
                         <div className="text-art">
@@ -45,14 +45,14 @@ const MyActions = () => {
                         </div>
                         <div className="container-share-button">
                                 <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.toroto.mx%2fes%2fblog%2fcomo-hacer-que-tu-empresa-sea-carbono-neutra" className="button-share-actions">
-                                    <img src={share} />
+                                    <img alt='compartir' src={share} />
                                 </a>
                         </div>
                     </div>
                     <div className="container-art-individual">
                         <form action="https://www.toroto.mx/es/blog/mi-salud-y-la-salud-del-planeta" method="get">
                             <button>
-                                <img className="img-art" src={art2}/>
+                                <img alt='articulo2' className="img-art" src={art2}/>
                             </button>
                         </form>
                         <div className="text-art">
@@ -62,14 +62,14 @@ const MyActions = () => {
                         </div>
                         <div className="container-share-button">
                             <button className="button-share-actions">
-                                <img src={share} />
+                                <img alt='compartir' src={share} />
                             </button>
                         </div>
                     </div>
                     <div className="container-art-individual">
                         <form action="https://www.toroto.mx/es/blog/nuestra-huella-de-carbono-digital" method="get">
                             <button>
-                                <img className="img-art" src={art3}/>
+                                <img alt='articulo2' className="img-art" src={art3}/>
                             </button>
                         </form>
                         <div className="text-art">
@@ -78,14 +78,14 @@ const MyActions = () => {
                         </div>
                         <div className="container-share-button">
                             <button className="button-share-actions">
-                                <img src={share} />
+                                <img alt='compartir' src={share} />
                             </button>
                         </div>
                     </div>
                     <div className="container-art-individual">
                         <form action="https://www.toroto.mx/es/blog/cuando-nos-dejamos-de-considerar-parte-de-la-naturaleza" method="get">
                             <button>
-                                <img className="img-art" src={art4}/>
+                                <img alt='artículo4' className="img-art" src={art4}/>
                             </button>
                         </form>
                         <div className="text-art">
@@ -95,7 +95,7 @@ const MyActions = () => {
                         </div>
                         <div className="container-share-button">
                             <button className="button-share-actions">
-                                <img src={share} />
+                                <img alt='compartir' src={share} />
                             </button>
                         </div>
                     </div>
