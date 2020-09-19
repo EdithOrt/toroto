@@ -14,7 +14,7 @@ const MyActions = () => {
         <div className="container-section-myfootprint2">
             <div className="blue-bar">
                 <div className="mobile-transition">
-                    <img src={transition} />
+                    <img alt='trancisión1' src={transition} />
                 </div>
                 <div className="text-transition">
                     <p>Unidos neutralizaremos nuestra huella 
@@ -48,7 +48,7 @@ const MyActions = () => {
                 <p>Felicitaciones por tu compromiso</p>
                 <p>¡Continúa así!</p>
                 <button>
-                    <img src={share}></img>
+                    <img alt='compartir' src={share}></img>
                 </button>
             </div>
         </div>

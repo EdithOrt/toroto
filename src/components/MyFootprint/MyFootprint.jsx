@@ -22,7 +22,7 @@ const MyFootprint = () => {
       <div className="circle-and-slider">
         <div className="content-circle">
           <div className="circle"></div>
-          <img className="arbol" src={cincotoneladas}/>
+          <img alt='árbol' className="arbol" src={cincotoneladas}/>
           <p>5t de C02</p>
         </div>
         <div className='slider-container'>
@@ -45,12 +45,12 @@ const MyFootprint = () => {
         <div className='container-buttons-img'>
           <div>
             <button>
-              <img src={squad} />
+              <img alt='compañeros' src={squad} />
             </button>
           </div>
           <div>
             <button>
-              <img src={logros} />
+              <img alt='logros' src={logros} />
             </button>
           </div>
         </div>
